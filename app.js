@@ -1,10 +1,6 @@
-console.log('hello this is nathan');
-
-nathan's version
+console.log('hello this is brian');
 
 const http = require('http');
-
-wwoowowowofna;jlbdf'
 
 const server = http.createServer(function(req, res) {
 	res.end("AHHHHHHHHH");
