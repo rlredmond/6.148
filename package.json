@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/rlredmond/6.148#readme",
   "dependencies": {
+    "express": "^4.16.2",
     "http": "0.0.0"
   }
 }
