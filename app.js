@@ -1,3 +1,5 @@
+console.log('hello this is nathan');
+
 const http = require('http');
 
 const server = http.createServer(function(req, res) {
