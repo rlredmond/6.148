@@ -2,7 +2,7 @@ console.log('hello this is nathan');
 
 const http = require('http');
 
-HELOPIESJFOPSIEJFPAIOJPOIJAEPgoij
+HELOPIRANDOMTEXTTEXTEXT
 
 const server = http.createServer(function(req, res) {
 	res.end("AHHHHHHHHH");
