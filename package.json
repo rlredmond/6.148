@@ -1,0 +1,22 @@
+{
+  "name": "6.148",
+  "version": "1.0.0",
+  "description": "6.148 stuff",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rlredmond/6.148.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rlredmond/6.148/issues"
+  },
+  "homepage": "https://github.com/rlredmond/6.148#readme",
+  "dependencies": {
+    "http": "0.0.0"
+  }
+}
