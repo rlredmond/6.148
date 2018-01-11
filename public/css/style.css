@@ -28,9 +28,9 @@ body {
 
 div.circle-avatar{
 	/* make it responsive */
-	max-width: 100%;
-	width:100%;
-	height:auto;
+	max-height: 100%;
+	width:auto;
+	height:100%;
 	display:block;
 	/* div height to be the same as width*/
 	padding-top:100%;
@@ -56,4 +56,29 @@ div.circle-avatar{
 
 .large-profile-container {
 	padding: 0 35%;
+}
+
+.random-placement {
+	background-position-y: center;
+	background-position-x: center;
+	margin: 0 auto;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.doge-font {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.rainbow{
+	-webkit-animation: rainbow 1s infinite;	
+}
+@-webkit-keyframes rainbow{
+	20%{color: red;}
+	40%{color: yellow;}
+	60%{color: green;}
+	80%{color: blue;}
+	100%{color: orange;}	
 }

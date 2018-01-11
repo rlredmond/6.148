@@ -9,6 +9,17 @@ function main() {
   renderNavbar(user);
 }
 
+function newDoge() {
+  const doge = document.createElement("div");
+  doge.className = "doge-font rainbow";
+  doge.innerHTML = document.getElementById("doge-status").value;
+  document.getElementById("doge-placement").appendChild(doge);
+  //document.getElementById("doge-status").value = "";
+}
+
+button = document.getElementById("doge-btn");
+button.addEventListener("click", newDoge);
+
 function renderUserData(user) {
 	// rendering name
 	const nameContainer = document.getElementById('name-container');
@@ -17,8 +28,8 @@ function renderUserData(user) {
 	nameContainer.appendChild(nameHeader);
 
 	// rendering profile image
-	const profileImage = document.getElementById('profile-image');
-	profileImage.style = 'background-image:url(https://i.pinimg.com/736x/98/e0/7d/98e07decc7c1ca58236995de3567e46a--cat-shirts-kitties-cutest.jpg)';
+	const profileImage = document.getElementById('profile-image2');
+	profileImage.style = 'background-image:url(https://alagoasalerta.com.br/admin/wp-content/uploads/2018/01/BBI5GsO-420x236.jpg)';
 
 	// rendering latest post
 	const latestPostCard = document.getElementById('latest-post-card');
