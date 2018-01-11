@@ -8,6 +8,12 @@ function newNavbarItem(text, url) {
 }
 
 function renderNavbar(user) {
+  const navbarTitle = document.getElementById("nav-title")
+
+  navbarTitle.innerHTML = "Catbook";
+  navbarTitle.className = "nav-link nav-title";
+  navbarTitle.href = "/home.html";
+
   const navbarDiv = document.getElementById('nav-item-container');
 
   navbarDiv.appendChild(newNavbarItem('Home', '/index.html'));

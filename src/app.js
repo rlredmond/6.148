@@ -16,6 +16,9 @@ app.get("/profile.html", function(req,res) {
 app.get("/profile/memes.html", function(req,res) {
 	res.sendFile("memes.html", {root: "src/views"});
 });
+app.get("/home.html", function(req,res) {
+	res.sendFile("home.html", {root: "src/views"});
+});
 
 const port = 3000;
 const server = http.Server(app);
