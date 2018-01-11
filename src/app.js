@@ -1,6 +1,5 @@
 const http = require('http');
 const express = require("express");
-
 const app = express();
 
 app.use("/static", express.static("public"));
@@ -13,6 +12,9 @@ app.get("/index.html", function(req,res) {
 });
 app.get("/profile.html", function(req,res) {
 	res.sendFile("profile.html", {root: "src/views"});
+});
+app.get("/profile/memes.html", function(req,res) {
+	res.sendFile("memes.html", {root: "src/views"});
 });
 
 const port = 3000;
