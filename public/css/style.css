@@ -82,3 +82,7 @@ div.circle-avatar{
 	80%{color: blue;}
 	100%{color: orange;}	
 }
+
+.meme-background {
+	background-image: url("http://barkpost-assets.s3.amazonaws.com/wp-content/uploads/2013/11/muchdoge-700x393.jpg");
+}
